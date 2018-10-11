@@ -53,9 +53,13 @@
 
         <!-- Oracle JDBC driver -->
         <dependency>
-            <groupId>jdbc.driver</groupId>
+          <!--  <groupId>jdbc.driver</groupId>
             <artifactId>oracle</artifactId>
             <version>11.2.0.1.0</version>
+         -->
+           <groupId>com.oracle</groupId>
+           <artifactId>ojdbc14</artifactId>
+	 <version>10.2.0.3.0</version>
         </dependency>
 
         <!-- HikariCP connection pool -->
